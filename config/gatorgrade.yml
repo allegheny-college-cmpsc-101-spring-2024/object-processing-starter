@@ -142,28 +142,12 @@ setup: |
         exact: false
 
 # run a command
-- description: Pass the source code formatting checks run by black
-  command: cd objectprocessor && poetry run task black
+- description: Pass the linting and formatting checks run ruff
+  command: cd objectprocessor && poetry run task ruff
 
 # run a command
-- description: Pass the linting checks run by flake8
-  command: cd objectprocessor && poetry run task flake8
-
-# run a command
-- description: Pass the import checks run by isort
-  command: cd objectprocessor && poetry run task isort
-
-# run a command
-- description: Pass the linting checks run by mypy
+- description: Pass the type checks run by mypy
   command: cd objectprocessor && poetry run task mypy
-
-# run a command
-- description: Pass the linting checks run by pydocstyle
-  command: cd objectprocessor && poetry run task pydocstyle
-
-# run a command
-- description: Pass the linting checks run by pylint
-  command: cd objectprocessor && poetry run task pylint
 
 # run a command
 - description: Pass the linting checks run by pymarkdown

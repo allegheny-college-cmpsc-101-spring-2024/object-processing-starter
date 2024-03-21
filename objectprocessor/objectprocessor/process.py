@@ -11,7 +11,7 @@ from objectprocessor import person
 
 # TODO: note that the input people.txt file:
     # --> contains five columns
-    # --> each of which contains textual data with a different meaning
+    # --> each of which contains text with a different meaning
 
 # Sample of the data set:
 
@@ -54,6 +54,7 @@ def write_person_data(file_name: str, person_data: List[person.Person]) -> None:
         # TODO: append this converted person list to the storage list
     # TODO: use the csv.writer approach and the writerows function to write out
     # the list of lists of strings that contain all of the person data
+    # https://docs.python.org/3/library/csv.html
 
 
 def find_matching_people(

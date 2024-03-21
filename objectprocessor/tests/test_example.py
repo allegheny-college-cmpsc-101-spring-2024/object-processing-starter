@@ -4,4 +4,4 @@
 # this file to match the file you are testing. Make sure to name your
 # test function appropriately starting with test_
 
-# TODO: Don't hesitate to use previous code as a reference
+# TODO: Use previous code as a reference
